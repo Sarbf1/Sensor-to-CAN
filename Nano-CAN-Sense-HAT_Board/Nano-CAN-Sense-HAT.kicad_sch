@@ -3690,17 +3690,6 @@
 		)
 		(uuid "07a2d0d8-4a74-4ee6-8b86-f2ab1444b71d")
 	)
-	(text "check footprints and define product.\nAdd decoupling caps everywhere"
-		(exclude_from_sim no)
-		(at 50.8 22.352 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-			(justify left)
-		)
-		(uuid "4abf119b-379d-4ee5-8280-4e378bb9551b")
-	)
 	(text "Junpers: Voltage and divider select"
 		(exclude_from_sim no)
 		(at 189.738 70.358 0)
@@ -3710,17 +3699,6 @@
 			)
 		)
 		(uuid "65ae0a1f-a632-42d1-93db-d3c07f54f854")
-	)
-	(text "connector Footprint\nneeds to be defined!\n"
-		(exclude_from_sim no)
-		(at 222.758 25.4 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left)
-		)
-		(uuid "67792ffd-6996-4502-be0e-10e9001c7d20")
 	)
 	(text "8mA max per LED"
 		(exclude_from_sim no)
@@ -9554,46 +9532,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "7646cfe6-305f-4174-bc8c-a929108d8092")
+			(uuid "7646cfe6-305f-4174-bc8c-a929108d8093")
 		)
 		(pin "4"
-			(uuid "f41d3088-4998-4149-a152-e9285a75674b")
+			(uuid "f41d3088-4998-4149-a152-e9285a75674c")
 		)
 		(pin "7"
-			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a6")
+			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a7")
 		)
 		(pin "14"
-			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be1")
+			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be2")
 		)
 		(pin "6"
-			(uuid "fd6561e1-ec57-4147-99de-2913e2566b44")
+			(uuid "fd6561e1-ec57-4147-99de-2913e2566b45")
 		)
 		(pin "5"
-			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b7619")
+			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b761a")
 		)
 		(pin "13"
-			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d52")
+			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d53")
 		)
 		(pin "2"
-			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8a")
+			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8b")
 		)
 		(pin "12"
-			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1ee")
+			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1ef")
 		)
 		(pin "11"
-			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70cd")
+			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70ce")
 		)
 		(pin "10"
-			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8995")
+			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8996")
 		)
 		(pin "3"
-			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722d")
+			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722e")
 		)
 		(pin "1"
-			(uuid "559b1414-54fa-4158-bb04-f342a6cd6189")
+			(uuid "559b1414-54fa-4158-bb04-f342a6cd618a")
 		)
 		(pin "8"
-			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1cf")
+			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1d0")
 		)
 		(instances
 			(project "Nano-CAN-Sense-HAT"
@@ -11047,46 +11025,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "7646cfe6-305f-4174-bc8c-a929108d8092")
+			(uuid "7646cfe6-305f-4174-bc8c-a929108d8094")
 		)
 		(pin "4"
-			(uuid "f41d3088-4998-4149-a152-e9285a75674b")
+			(uuid "f41d3088-4998-4149-a152-e9285a75674d")
 		)
 		(pin "7"
-			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a6")
+			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a8")
 		)
 		(pin "14"
-			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be1")
+			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be3")
 		)
 		(pin "6"
-			(uuid "fd6561e1-ec57-4147-99de-2913e2566b44")
+			(uuid "fd6561e1-ec57-4147-99de-2913e2566b46")
 		)
 		(pin "5"
-			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b7619")
+			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b761b")
 		)
 		(pin "13"
-			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d52")
+			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d54")
 		)
 		(pin "2"
-			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8a")
+			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8c")
 		)
 		(pin "12"
-			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1ee")
+			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1f0")
 		)
 		(pin "11"
-			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70cd")
+			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70cf")
 		)
 		(pin "10"
-			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8995")
+			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8997")
 		)
 		(pin "3"
-			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722d")
+			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722f")
 		)
 		(pin "1"
-			(uuid "559b1414-54fa-4158-bb04-f342a6cd6189")
+			(uuid "559b1414-54fa-4158-bb04-f342a6cd618b")
 		)
 		(pin "8"
-			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1cf")
+			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1d1")
 		)
 		(instances
 			(project "Nano-CAN-Sense-HAT"
@@ -12848,46 +12826,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "7646cfe6-305f-4174-bc8c-a929108d8092")
+			(uuid "7646cfe6-305f-4174-bc8c-a929108d8095")
 		)
 		(pin "4"
-			(uuid "f41d3088-4998-4149-a152-e9285a75674b")
+			(uuid "f41d3088-4998-4149-a152-e9285a75674e")
 		)
 		(pin "7"
-			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a6")
+			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a9")
 		)
 		(pin "14"
-			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be1")
+			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be4")
 		)
 		(pin "6"
-			(uuid "fd6561e1-ec57-4147-99de-2913e2566b44")
+			(uuid "fd6561e1-ec57-4147-99de-2913e2566b47")
 		)
 		(pin "5"
-			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b7619")
+			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b761c")
 		)
 		(pin "13"
-			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d52")
+			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d55")
 		)
 		(pin "2"
-			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8a")
+			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8d")
 		)
 		(pin "12"
-			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1ee")
+			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1f1")
 		)
 		(pin "11"
-			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70cd")
+			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70d0")
 		)
 		(pin "10"
-			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8995")
+			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8998")
 		)
 		(pin "3"
-			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722d")
+			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec47230")
 		)
 		(pin "1"
-			(uuid "559b1414-54fa-4158-bb04-f342a6cd6189")
+			(uuid "559b1414-54fa-4158-bb04-f342a6cd618c")
 		)
 		(pin "8"
-			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1cf")
+			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1d2")
 		)
 		(instances
 			(project "Nano-CAN-Sense-HAT"
@@ -13132,46 +13110,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "7646cfe6-305f-4174-bc8c-a929108d8092")
+			(uuid "7646cfe6-305f-4174-bc8c-a929108d8096")
 		)
 		(pin "4"
-			(uuid "f41d3088-4998-4149-a152-e9285a75674b")
+			(uuid "f41d3088-4998-4149-a152-e9285a75674f")
 		)
 		(pin "7"
-			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887a6")
+			(uuid "90c1e9ea-cff8-4aeb-bd6d-d53a27c887aa")
 		)
 		(pin "14"
-			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be1")
+			(uuid "757beb2e-81b0-4a4f-9259-c3485ca31be5")
 		)
 		(pin "6"
-			(uuid "fd6561e1-ec57-4147-99de-2913e2566b44")
+			(uuid "fd6561e1-ec57-4147-99de-2913e2566b48")
 		)
 		(pin "5"
-			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b7619")
+			(uuid "ebccffb2-dc9b-4dcc-8b7e-511d138b761d")
 		)
 		(pin "13"
-			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d52")
+			(uuid "fba5a98b-4d66-4c01-91cc-f91cf5006d56")
 		)
 		(pin "2"
-			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8a")
+			(uuid "90a4ff6c-0f8f-4f4f-8310-cdf9a81edf8e")
 		)
 		(pin "12"
-			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1ee")
+			(uuid "7c2c8670-7e8a-4886-9616-1ec12c3af1f2")
 		)
 		(pin "11"
-			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70cd")
+			(uuid "35a0526c-ff7f-4740-b280-4774d5ee70d1")
 		)
 		(pin "10"
-			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8995")
+			(uuid "8e136df0-49b3-4ef0-882d-f29c2d8b8999")
 		)
 		(pin "3"
-			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec4722d")
+			(uuid "0e6ed672-5e51-48a8-abbc-6b2e4ec47231")
 		)
 		(pin "1"
-			(uuid "559b1414-54fa-4158-bb04-f342a6cd6189")
+			(uuid "559b1414-54fa-4158-bb04-f342a6cd618d")
 		)
 		(pin "8"
-			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1cf")
+			(uuid "cfcd5ae2-1716-4404-b740-5c7571d3f1d3")
 		)
 		(instances
 			(project "Nano-CAN-Sense-HAT"
