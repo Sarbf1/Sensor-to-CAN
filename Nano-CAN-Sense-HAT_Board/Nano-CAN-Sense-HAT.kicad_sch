@@ -2848,10 +2848,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Oscillator:SG-5032CCN"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Oscillator:ECS-2520MV-xxx-xx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2868,7 +2865,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SG-5032CCN"
+			(property "Value" "ECS-2520MV-xxx-xx"
 				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2879,8 +2876,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm"
-				(at 17.78 -8.89 0)
+			(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+				(at 11.43 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2890,8 +2887,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CCN&lang=en"
-				(at -2.54 0 0)
+			(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+				(at -4.445 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2901,7 +2898,7 @@
 					)
 				)
 			)
-			(property "Description" "CMOS Clock Oscillator 2.5 to 50 MHz"
+			(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2912,7 +2909,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Crystal Clock Oscillator"
+			(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2923,7 +2920,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*"
+			(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2934,10 +2931,10 @@
 					)
 				)
 			)
-			(symbol "SG-5032CCN_0_1"
+			(symbol "ECS-2520MV-xxx-xx_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2948,8 +2945,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
-						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+						(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
+						(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2960,11 +2957,11 @@
 					)
 				)
 			)
-			(symbol "SG-5032CCN_1_1"
+			(symbol "ECS-2520MV-xxx-xx_1_1"
 				(pin input line
-					(at -7.62 0 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "OE"
+					(name "Tri-State"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2998,7 +2995,7 @@
 					)
 				)
 				(pin output line
-					(at 7.62 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -3018,7 +3015,7 @@
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "Vcc"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4654,6 +4651,12 @@
 		(uuid "16458d2a-4aeb-4368-ad55-e1613f94b0c8")
 	)
 	(junction
+		(at 201.93 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "168ebc4c-337a-44cb-add3-cd60d6020c9f")
+	)
+	(junction
 		(at 86.36 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4708,6 +4711,12 @@
 		(uuid "390937f2-c182-4371-8488-bb94ecc01131")
 	)
 	(junction
+		(at 176.53 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3af0c104-169a-4a63-a32c-db2d90bd10a8")
+	)
+	(junction
 		(at 261.62 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,12 +4745,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66258f5d-b2bc-46e2-ac89-64e10446d7ca")
-	)
-	(junction
-		(at 204.47 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7148cea4-d1fd-4580-8037-027729f1b730")
 	)
 	(junction
 		(at 162.56 124.46)
@@ -4814,12 +4817,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafd6223-e71e-4288-a321-b45cc659cb2f")
-	)
-	(junction
-		(at 179.07 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbe4b532-3317-4362-90ee-d7e3e0517168")
 	)
 	(junction
 		(at 269.24 33.02)
@@ -5023,16 +5020,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 127) (xy 193.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10002c85-cee5-4e97-a76b-7e682c10502f")
-	)
-	(wire
-		(pts
 			(xy 233.68 45.72) (xy 240.03 45.72)
 		)
 		(stroke
@@ -5040,16 +5027,6 @@
 			(type default)
 		)
 		(uuid "1023a71c-8ece-46ae-905b-12ae5fb27980")
-	)
-	(wire
-		(pts
-			(xy 179.07 137.16) (xy 185.42 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11003747-2995-4636-8d2a-23b9a55dd95a")
 	)
 	(wire
 		(pts
@@ -5120,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "16de5c91-1bb3-4f43-ae6b-c9d0c4fb0a35")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1913796e-e502-4e8e-a937-2cd2abae65cc")
 	)
 	(wire
 		(pts
@@ -5333,6 +5320,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 38.1) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fb7a63-3525-49a0-95ec-0d9fcfe83f17")
+	)
+	(wire
+		(pts
 			(xy 60.96 133.35) (xy 64.77 133.35)
 		)
 		(stroke
@@ -5383,7 +5380,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 146.05) (xy 204.47 147.32)
+			(xy 201.93 146.05) (xy 201.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5473,6 +5470,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 125.73) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c71d371-a263-4881-95e7-e55226d76dde")
+	)
+	(wire
+		(pts
 			(xy 55.88 147.32) (xy 58.42 147.32)
 		)
 		(stroke
@@ -5490,6 +5497,16 @@
 			(type default)
 		)
 		(uuid "3d0e9299-a17d-4af1-ab02-d8cab6d92346")
+	)
+	(wire
+		(pts
+			(xy 162.56 120.65) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d453a23-1a60-4c23-a1ff-5bd13964eb17")
 	)
 	(wire
 		(pts
@@ -5653,7 +5670,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 179.07 138.43)
+			(xy 176.53 137.16) (xy 176.53 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5830,16 +5847,6 @@
 			(type default)
 		)
 		(uuid "6c849c81-a9dc-4e73-ac67-d5a6a6e26a45")
-	)
-	(wire
-		(pts
-			(xy 162.56 123.19) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efc6baa-669b-4e5a-801c-74f17c68b5a2")
 	)
 	(wire
 		(pts
@@ -6133,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 137.16) (xy 207.01 137.16)
+			(xy 201.93 137.16) (xy 204.47 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6183,7 +6190,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 137.16) (xy 204.47 138.43)
+			(xy 201.93 137.16) (xy 201.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6553,6 +6560,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 137.16) (xy 180.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ba6bcd-3389-4322-a316-69c05d687599")
+	)
+	(wire
+		(pts
 			(xy 147.32 138.43) (xy 147.32 143.51)
 		)
 		(stroke
@@ -6623,7 +6640,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 179.07 147.32)
+			(xy 176.53 146.05) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6673,7 +6690,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 137.16) (xy 179.07 137.16)
+			(xy 172.72 137.16) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6783,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 193.04 147.32)
+			(xy 190.5 144.78) (xy 190.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6853,13 +6870,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 137.16) (xy 204.47 137.16)
+			(xy 200.66 137.16) (xy 201.93 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea2b2946-1a15-47ad-b46d-0c4c33d2b6c7")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9ebdc1-2293-4dc6-ba4f-e7d7c545f1ca")
 	)
 	(wire
 		(pts
@@ -6980,6 +7007,16 @@
 			(type default)
 		)
 		(uuid "fa49e505-fa20-4776-b65d-9d3e11a5c3bc")
+	)
+	(wire
+		(pts
+			(xy 190.5 129.54) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb392a51-100a-4b83-9efd-8f9c4512657e")
 	)
 	(wire
 		(pts
@@ -9267,7 +9304,7 @@
 		(uuid "0548dd48-82f0-4dfd-b7c7-8c6d6a53966d")
 	)
 	(label "SPXOin"
-		(at 175.26 137.16 0)
+		(at 172.72 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9517,7 +9554,7 @@
 		(uuid "80086091-a12a-4d4f-a43d-f2445db93054")
 	)
 	(label "SPXOout"
-		(at 207.01 137.16 0)
+		(at 204.47 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10821,6 +10858,17 @@
 				)
 			)
 		)
+		(property "Comment" "Need 5V tolderan Sensirion SHT41 or SHT30 model. SHTXXA-XX1B"
+			(at 160.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ae3a0874-d9df-4886-88e0-90be392af52a")
 		)
@@ -10844,7 +10892,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 142.24 180)
+		(at 201.93 142.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10855,7 +10903,7 @@
 		(fields_autoplaced yes)
 		(uuid "22354114-6909-4a1a-aa94-9fb886a8e1db")
 		(property "Reference" "C9"
-			(at 208.28 140.9699 0)
+			(at 205.74 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10865,8 +10913,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22pC"
-			(at 208.28 143.5099 0)
+		(property "Value" "8pC"
+			(at 205.74 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10877,7 +10925,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 203.5048 138.43 0)
+			(at 200.9648 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10888,7 +10936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 142.24 0)
+			(at 201.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10899,7 +10947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 142.24 0)
+			(at 201.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +11432,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 147.32 0)
+		(at 201.93 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11394,7 +11442,7 @@
 		(dnp no)
 		(uuid "34111726-731d-4d4c-9e9f-e4d0fbd558e1")
 		(property "Reference" "#PWR0138"
-			(at 204.47 153.67 0)
+			(at 201.93 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +11453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 151.13 0)
+			(at 201.93 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11415,7 +11463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 147.32 0)
+			(at 201.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,7 +11474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 147.32 0)
+			(at 201.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,7 +11485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 147.32 0)
+			(at 201.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,103 +11592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:SG-5032CCN")
-		(at 193.04 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3932bfe9-99bb-4257-a5de-70cc96ed1c1f")
-		(property "Reference" "Y1"
-			(at 205.74 130.7398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SG-5032CCN"
-			(at 205.74 133.2798 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm"
-			(at 210.82 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CCN&lang=en"
-			(at 190.5 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CMOS Clock Oscillator 2.5 to 50 MHz"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Freq" "20Mhz"
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c13da35b-aca7-419e-ac56-ee04a6e33820")
-		)
-		(pin "3"
-			(uuid "a0abd258-a1d6-4185-be3b-bc40e18a4715")
-		)
-		(pin "4"
-			(uuid "2c0c2345-5664-44b8-904c-d75d9956ec76")
-		)
-		(pin "2"
-			(uuid "0032987a-5eb9-45c0-bd9f-22801a077679")
-		)
-		(instances
-			(project "Nano-CAN-Sense-HAT"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 259.08 156.21 90)
 		(unit 1)
@@ -11722,7 +11673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 147.32 0)
+		(at 190.5 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11732,7 +11683,7 @@
 		(dnp no)
 		(uuid "3f3bf1a8-f2f3-402a-88b7-30fe77fc8b07")
 		(property "Reference" "#PWR0134"
-			(at 193.04 153.67 0)
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11743,7 +11694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 151.13 0)
+			(at 190.5 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11753,7 +11704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 147.32 0)
+			(at 190.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11764,7 +11715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 147.32 0)
+			(at 190.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11775,7 +11726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 147.32 0)
+			(at 190.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12031,6 +11982,84 @@
 			(project "Nano-CAN-Sense-HAT"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53878469-d8ee-4b67-bf31-55577dac11e5")
+		(property "Reference" "#PWR0133"
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.528 116.332 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ce0fb6-288d-425c-8c7b-86f7d9a35981")
+		)
+		(instances
+			(project "Nano-CAN-Sense-HAT"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12518,7 +12547,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 142.24 180)
+		(at 176.53 142.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12529,7 +12558,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ed82de9-8162-4ae5-a1c2-5d64a12ed699")
 		(property "Reference" "C8"
-			(at 182.88 140.9699 0)
+			(at 180.34 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12539,8 +12568,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22pC"
-			(at 182.88 143.5099 0)
+		(property "Value" "8pC"
+			(at 180.34 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12551,7 +12580,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 178.1048 138.43 0)
+			(at 175.5648 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12562,7 +12591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 142.24 0)
+			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12573,7 +12602,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 142.24 0)
+			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12829,6 +12858,83 @@
 			(project "Nano-CAN-Sense-HAT"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69132d75-f2f2-4e4d-831a-0cbbfbca66ce")
+		(property "Reference" "#PWR0142"
+			(at 184.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c26ff8ae-cc0c-4df3-bfbd-6ff05576293c")
+		)
+		(instances
+			(project "Nano-CAN-Sense-HAT"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -13495,6 +13601,103 @@
 			(project "Nano-CAN-Sense-HAT"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
+		(at 190.5 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f69659-5399-40d8-a86b-115be564549b")
+		(property "Reference" "Y2"
+			(at 207.01 130.7398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-200-8-33"
+			(at 207.01 133.2798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+			(at 201.93 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+			(at 186.055 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Placeholder for Quarz crystal. 20Mzh, 3.2x2.5mm footprint, 8pF capacity"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c162dca-62d1-4f44-93d0-a63a6eb40f97")
+		)
+		(pin "2"
+			(uuid "9a26afbc-a5f7-43e2-891a-f0703786e115")
+		)
+		(pin "3"
+			(uuid "54fa9ba9-6f4a-4703-abf3-ac8cb23d489b")
+		)
+		(pin "4"
+			(uuid "bbb63c63-03b0-4c9c-b8f2-11a71352bdb1")
+		)
+		(instances
+			(project "Nano-CAN-Sense-HAT"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -16227,6 +16430,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 247.65 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df3bf1db-bd83-4013-a59a-b53e686de269")
+		(property "Reference" "#PWR0143"
+			(at 247.65 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b90b804-12c7-42c0-bc0b-03197a50fec1")
+		)
+		(instances
+			(project "Nano-CAN-Sense-HAT"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth_Protective")
 		(at 177.8 39.37 0)
 		(unit 1)
@@ -16377,162 +16657,6 @@
 			(project "Nano-CAN-Sense-HAT"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 193.04 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e509d8d2-f04d-4f3b-8cc2-f1c731c16973")
-		(property "Reference" "#PWR0133"
-			(at 193.04 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 194.818 125.222 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e84fac89-f52b-4c4c-a693-ce609ea7e44c")
-		)
-		(instances
-			(project "Nano-CAN-Sense-HAT"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 162.56 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6b92be3-fe68-43c0-bac4-0fc2d13d8890")
-		(property "Reference" "#PWR0117"
-			(at 162.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 119.634 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11ecb9b8-c3d1-4036-8096-fe85275556f5")
-		)
-		(instances
-			(project "Nano-CAN-Sense-HAT"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -16926,7 +17050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 147.32 0)
+		(at 176.53 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16936,7 +17060,7 @@
 		(dnp no)
 		(uuid "fd38659b-a16f-49c5-a373-17cdc6040cdb")
 		(property "Reference" "#PWR0139"
-			(at 179.07 153.67 0)
+			(at 176.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16947,7 +17071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 151.13 0)
+			(at 176.53 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16957,7 +17081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 147.32 0)
+			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16968,7 +17092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 147.32 0)
+			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16979,7 +17103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 147.32 0)
+			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
