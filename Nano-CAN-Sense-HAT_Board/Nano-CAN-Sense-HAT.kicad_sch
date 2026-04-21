@@ -4345,7 +4345,7 @@
 		)
 	)
 	(rectangle
-		(start 13.97 109.22)
+		(start 13.97 107.95)
 		(end 139.7 195.58)
 		(stroke
 			(width 0)
@@ -4405,7 +4405,7 @@
 		(uuid "77210417-936f-4c36-82f8-7661bceda858")
 	)
 	(rectangle
-		(start 142.24 109.22)
+		(start 142.24 107.95)
 		(end 167.64 163.83)
 		(stroke
 			(width 0)
@@ -4418,7 +4418,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 167.64 106.68)
+		(end 167.64 105.41)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -4463,17 +4463,6 @@
 		)
 		(uuid "07a2d0d8-4a74-4ee6-8b86-f2ab1444b71d")
 	)
-	(text "check footprints and define products"
-		(exclude_from_sim no)
-		(at 50.8 22.352 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-			(justify left)
-		)
-		(uuid "4abf119b-379d-4ee5-8280-4e378bb9551b")
-	)
 	(text "Junpers: Voltage and divider select"
 		(exclude_from_sim no)
 		(at 238.76 17.78 0)
@@ -4507,7 +4496,7 @@
 	)
 	(text "Op Amps:"
 		(exclude_from_sim no)
-		(at 18.796 113.792 0)
+		(at 17.526 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4559,9 +4548,9 @@
 		)
 		(uuid "acf37415-f6f6-47aa-812c-1bf62d4c0e6e")
 	)
-	(text "TODO: Check if STBY pin\nmust be pulled high or low"
+	(text "STBY Low = Always on"
 		(exclude_from_sim no)
-		(at 229.616 103.124 0)
+		(at 227.838 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4600,16 +4589,6 @@
 		)
 		(uuid "c16728e3-b4e6-4f50-a054-8c515c26d5bc")
 	)
-	(text "TODO: Check if STBY pin of CAN Transciever must be pulled high or low\nTODO: Define Tmeperatur sensor decoupling cap. can it be left out?"
-		(exclude_from_sim no)
-		(at 87.376 27.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d60b1d9c-810c-4765-8059-57568b18c628")
-	)
 	(text "Varia"
 		(exclude_from_sim no)
 		(at 144.018 169.164 0)
@@ -4623,7 +4602,7 @@
 	)
 	(text "Option:\nTemp Sensor"
 		(exclude_from_sim no)
-		(at 144.526 113.03 0)
+		(at 144.78 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4633,7 +4612,7 @@
 		(uuid "e8868065-5c79-4806-8288-7e81d8bdb903")
 	)
 	(junction
-		(at 156.21 130.81)
+		(at 156.21 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1016be7b-1868-42be-8ef2-aa9583059512")
@@ -4699,7 +4678,7 @@
 		(uuid "31029b08-07c8-4afb-ae82-341ec0e675f7")
 	)
 	(junction
-		(at 162.56 130.81)
+		(at 162.56 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3857671a-5099-4f22-b278-c3e7c888a4b5")
@@ -4741,13 +4720,13 @@
 		(uuid "65a0e6d2-62f5-42aa-8c43-0762d65b645a")
 	)
 	(junction
-		(at 151.13 148.59)
+		(at 151.13 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66258f5d-b2bc-46e2-ac89-64e10446d7ca")
 	)
 	(junction
-		(at 162.56 124.46)
+		(at 162.56 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ac0329-1957-4d12-9df8-017c68d24151")
@@ -4795,7 +4774,7 @@
 		(uuid "a97d50b1-0d51-4dff-818e-921f40a013b6")
 	)
 	(junction
-		(at 147.32 143.51)
+		(at 147.32 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae139f2c-994c-4fab-ad3a-b6e47e0329f1")
@@ -5000,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 162.56 130.81)
+			(xy 156.21 132.08) (xy 162.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5229,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 138.43) (xy 156.21 138.43)
+			(xy 151.13 139.7) (xy 156.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5267,6 +5246,16 @@
 			(type default)
 		)
 		(uuid "26a3b116-21a5-4466-8228-b17c166006c5")
+	)
+	(wire
+		(pts
+			(xy 229.87 96.52) (xy 229.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26abf27d-142d-41c2-8f52-e757a5e55593")
 	)
 	(wire
 		(pts
@@ -5350,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 124.46) (xy 162.56 124.46)
+			(xy 158.75 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 124.46) (xy 147.32 124.46)
+			(xy 151.13 125.73) (xy 147.32 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +5489,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 162.56 124.46)
+			(xy 162.56 121.92) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +5839,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 132.08) (xy 19.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9819e4-c1e4-40bf-9387-5c95c97a94f5")
+	)
+	(wire
+		(pts
 			(xy 60.96 118.11) (xy 64.77 118.11)
 		)
 		(stroke
@@ -5980,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 138.43) (xy 151.13 148.59)
+			(xy 151.13 139.7) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6070,7 +6069,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 130.81) (xy 162.56 138.43)
+			(xy 162.56 132.08) (xy 162.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6200,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 143.51) (xy 152.4 143.51)
+			(xy 147.32 144.78) (xy 152.4 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6280,7 +6279,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 124.46) (xy 162.56 130.81)
+			(xy 162.56 125.73) (xy 162.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6329,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 143.51) (xy 147.32 143.51)
+			(xy 144.78 144.78) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6397,6 +6396,16 @@
 			(type default)
 		)
 		(uuid "b1a0b69a-5fa5-475f-9106-b97e48bb889d")
+	)
+	(wire
+		(pts
+			(xy 231.14 96.52) (xy 229.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ebb1ee-dc49-4fe6-82a0-011d0546ef05")
 	)
 	(wire
 		(pts
@@ -6570,7 +6579,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 147.32 143.51)
+			(xy 147.32 139.7) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6670,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 130.81) (xy 156.21 130.81)
+			(xy 147.32 132.08) (xy 156.21 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6680,7 +6689,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 153.67) (xy 162.56 156.21)
+			(xy 162.56 154.94) (xy 162.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6900,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 148.59) (xy 151.13 148.59)
+			(xy 144.78 149.86) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7020,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 152.4 148.59)
+			(xy 151.13 149.86) (xy 152.4 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7059,7 +7068,7 @@
 		(uuid "fee43712-22d8-4db1-92a8-2882253af55d")
 	)
 	(image
-		(at 124.46 67.31)
+		(at 124.46 60.96)
 		(scale 1.15517)
 		(uuid "a222ac24-d313-43a0-83d6-54991b8c54c5")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA0YAAALtCAYAAAAMiHSBAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -9594,7 +9603,7 @@
 		(uuid "930902cf-d4dd-4542-9443-7e012db7bd02")
 	)
 	(label "A4{slash}SDA"
-		(at 144.78 148.59 0)
+		(at 144.78 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9744,7 +9753,7 @@
 		(uuid "d6e095a9-0655-47ae-9e86-5d6861b101a7")
 	)
 	(label "A5{slash}SCL"
-		(at 144.78 143.51 0)
+		(at 144.78 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9814,7 +9823,7 @@
 		(uuid "ef31c114-4a94-49c5-a20b-7486983ed0a8")
 	)
 	(label "sense12V"
-		(at 19.05 134.62 0)
+		(at 19.05 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9947,6 +9956,17 @@
 				)
 			)
 		)
+		(property "Price" "0.5"
+			(at 52.07 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "756e3adb-8e69-443b-a62a-32ab5863ff36")
 		)
@@ -10056,6 +10076,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.5"
 			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10338,6 +10369,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 240.03 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a2ac2af-c0a9-489e-941b-e720843e9de8")
 		)
@@ -10355,7 +10397,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 134.62 180)
+		(at 156.21 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10366,7 +10408,7 @@
 		(fields_autoplaced yes)
 		(uuid "0891eb5e-90e2-4fec-82f0-c5983a8f868e")
 		(property "Reference" "R15"
-			(at 158.75 133.3499 0)
+			(at 158.75 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10377,7 +10419,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 158.75 135.8899 0)
+			(at 158.75 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10388,7 +10430,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 157.988 134.62 90)
+			(at 157.988 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10399,7 +10441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 134.62 0)
+			(at 156.21 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10410,7 +10452,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 134.62 0)
+			(at 156.21 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 156.21 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,6 +10632,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 19.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46f8f2b8-6e83-494a-b755-d4251cec43c3")
 		)
@@ -10659,6 +10723,17 @@
 				)
 			)
 		)
+		(property "Price" "2.8"
+			(at 111.76 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "7646cfe6-305f-4174-bc8c-a929108d8092")
 		)
@@ -10712,7 +10787,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 124.46 90)
+		(at 154.94 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10723,7 +10798,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e91b484-c0db-406d-819e-bc3ab7ef08f3")
 		(property "Reference" "C10"
-			(at 154.94 116.84 90)
+			(at 154.94 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10733,7 +10808,7 @@
 			)
 		)
 		(property "Value" "100nC"
-			(at 154.94 119.38 90)
+			(at 154.94 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10743,7 +10818,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 158.75 123.4948 0)
+			(at 158.75 124.7648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10754,7 +10829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 124.46 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10765,7 +10840,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 124.46 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10792,7 +10867,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Humidity:SHT4x")
-		(at 160.02 146.05 0)
+		(at 160.02 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10802,7 +10877,7 @@
 		(dnp no)
 		(uuid "1ac7abdd-1d3e-4c59-b971-da7bd88904e0")
 		(property "Reference" "U4"
-			(at 155.194 153.162 0)
+			(at 155.194 154.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10813,7 +10888,7 @@
 			)
 		)
 		(property "Value" "SHT4x"
-			(at 155.194 155.702 0)
+			(at 155.194 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10824,7 +10899,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
-			(at 163.83 152.4 0)
+			(at 163.83 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +10911,7 @@
 			)
 		)
 		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
-			(at 163.83 154.94 0)
+			(at 163.83 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10848,7 +10923,7 @@
 			)
 		)
 		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
-			(at 160.02 146.05 0)
+			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +10934,18 @@
 			)
 		)
 		(property "Comment" "Need 5V tolderan Sensirion SHT41 or SHT30 model. SHTXXA-XX1B"
-			(at 160.02 146.05 0)
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.7"
+			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,6 +11043,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 201.93 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b33ef71-1a58-4602-938c-d30661a188eb")
 		)
@@ -10974,7 +11071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 124.46 0)
+		(at 147.32 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10984,7 +11081,7 @@
 		(dnp no)
 		(uuid "2436b30c-fcbe-48e9-8696-27e8c9218fca")
 		(property "Reference" "#PWR0141"
-			(at 147.32 130.81 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10995,7 +11092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 128.27 0)
+			(at 147.32 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11005,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +11113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11027,7 +11124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
+			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11125,6 +11222,17 @@
 				)
 			)
 		)
+		(property "Price" "0.06"
+			(at 269.24 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13f0f107-cb20-4387-9d0a-6bdf7e51a06d")
 		)
@@ -11195,6 +11303,17 @@
 			)
 		)
 		(property "Description" "Quad CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-14/SOIC-14"
+			(at 100.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.8"
 			(at 100.33 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11310,6 +11429,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.5"
 			(at 256.54 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11573,6 +11703,17 @@
 				)
 			)
 		)
+		(property "Price" "0.5"
+			(at 201.93 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8f77f5d5-5c8a-4bcf-aa39-4c5b92733e25")
 		)
@@ -11647,6 +11788,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 259.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 259.08 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,6 +11965,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 195.58 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7bf08675-5358-4031-b418-1b0792adbb98")
 		)
@@ -11883,6 +12046,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 30.48 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 30.48 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11972,6 +12146,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 236.22 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f277124-b3b7-4f24-9e96-c89b765f806b")
 		)
@@ -11989,7 +12174,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 120.65 0)
+		(at 162.56 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11999,7 +12184,7 @@
 		(dnp no)
 		(uuid "53878469-d8ee-4b67-bf31-55577dac11e5")
 		(property "Reference" "#PWR0133"
-			(at 162.56 124.46 0)
+			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12010,7 +12195,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.528 116.332 0)
+			(at 160.528 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12021,7 +12206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 120.65 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12032,7 +12217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 120.65 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12043,7 +12228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 120.65 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12122,6 +12307,17 @@
 			)
 		)
 		(property "Description" "CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1"
 			(at 243.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12227,6 +12423,17 @@
 			)
 		)
 		(property "Description" "CAN FD Controller with SPI Interface, up to 8 Mbps, Vdd 2.7..5.5V,  functional safety ready, VDFN-14"
+			(at 200.66 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.8"
 			(at 200.66 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12367,6 +12574,17 @@
 				)
 			)
 		)
+		(property "Price" "0.06"
+			(at 269.24 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e3c8dd2-0876-4acc-ac2c-f5e466628052")
 		)
@@ -12439,6 +12657,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 90.17 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,6 +12759,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 19.05 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07aa11cc-e7ef-4c0a-b419-68419f5f69ba")
 		)
@@ -12602,6 +12842,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
 			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12839,6 +13090,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 90.17 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13173,6 +13435,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7432adc5-de25-4552-a3e6-2f09b2f08c39")
+		(property "Reference" "#PWR0144"
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "450ac344-37c5-45bb-81f9-edaae7d5aaef")
+		)
+		(instances
+			(project "Nano-CAN-Sense-HAT"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMC6484")
 		(at 48.26 147.32 0)
 		(unit 1)
@@ -13227,6 +13566,17 @@
 			)
 		)
 		(property "Description" "Quad CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-14/SOIC-14"
+			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.8"
 			(at 48.26 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13343,6 +13693,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 234.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.8"
 			(at 234.95 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13512,6 +13873,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 90.17 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d8436ae-bc2b-4036-a126-94077429cc55")
 		)
@@ -13581,6 +13953,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 233.68 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
 			(at 233.68 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13682,6 +14065,17 @@
 				)
 			)
 		)
+		(property "Price" "0.3"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c162dca-62d1-4f44-93d0-a63a6eb40f97")
 		)
@@ -13758,6 +14152,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 234.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.8"
 			(at 234.95 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14317,6 +14722,17 @@
 				)
 			)
 		)
+		(property "Price" "0.15"
+			(at 264.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "6c4cc590-784d-4a17-80ef-be19936a2e0b")
 		)
@@ -14478,6 +14894,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 111.76 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59672343-c0ae-4f0c-9852-ae96a6127403")
 		)
@@ -14627,6 +15054,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
 			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14796,6 +15234,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 90.17 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "766ed2da-a86f-41cf-ba4c-fe1ae7293510")
 		)
@@ -14868,6 +15317,17 @@
 			)
 		)
 		(property "Description" "Quad CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-14/SOIC-14"
+			(at 71.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.8"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -15072,6 +15532,17 @@
 				)
 			)
 		)
+		(property "Price" "0.5"
+			(at 201.93 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9281e0c-7c9b-4a2e-9df0-eb063159ff6a")
 		)
@@ -15151,6 +15622,17 @@
 			)
 		)
 		(property "Description" "Quad CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-14/SOIC-14"
+			(at 48.26 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "2.8"
 			(at 48.26 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15850,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 134.62 180)
+		(at 147.32 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15379,7 +15861,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc691603-79bf-4c83-b7da-50b878687207")
 		(property "Reference" "R14"
-			(at 149.86 133.3499 0)
+			(at 149.86 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15390,7 +15872,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 149.86 135.8899 0)
+			(at 149.86 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15401,7 +15883,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 149.098 134.62 90)
+			(at 149.098 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +15894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 134.62 0)
+			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15423,7 +15905,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 134.62 0)
+			(at 147.32 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15591,6 +16084,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3aed9298-e253-45b0-91cc-4779488210d3")
 		)
@@ -15661,6 +16165,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.5"
 			(at 256.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15770,6 +16285,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 60.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3f8ecb0-35e8-485b-ab09-e157f59e6dd8")
 		)
@@ -15839,6 +16365,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
 			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16084,6 +16621,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 259.08 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0697775-010c-458f-90bc-c98589637f9f")
 		)
@@ -16166,6 +16714,17 @@
 				)
 			)
 		)
+		(property "Price" "0.03"
+			(at 110.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee94f03e-3a85-48cd-94f4-c4071c272d50")
 		)
@@ -16237,6 +16796,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 259.08 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.03"
+			(at 259.08 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16404,6 +16974,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 269.24 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.06"
 			(at 269.24 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16818,7 +17399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 156.21 0)
+		(at 162.56 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16828,7 +17409,7 @@
 		(dnp no)
 		(uuid "f662fa5d-073d-4b5c-b660-282aa83259d0")
 		(property "Reference" "#PWR0140"
-			(at 162.56 162.56 0)
+			(at 162.56 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16839,7 +17420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 160.02 0)
+			(at 162.56 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16849,7 +17430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 156.21 0)
+			(at 162.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16860,7 +17441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 156.21 0)
+			(at 162.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16871,7 +17452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 156.21 0)
+			(at 162.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
