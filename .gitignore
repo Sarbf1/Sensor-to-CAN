@@ -61,6 +61,7 @@ dkms.conf
 
 *.history
 .history
+*.zip
 
 # Temporary files
 *.000
