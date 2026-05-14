@@ -1,0 +1,48 @@
+Circuit: * D:\Sarbach_Product dev\Nano-CAN-Sense-HAT\CANbus-Sense-HAT-nano\Simulation\LM234-OpAmp-LTSpice.asc
+
+ERROR: Node NC_01 is floating and connected to current source I1
+
+WARNING: Less than two connections to node n002.  This node is used by r6.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+
+Date: Tue May 12 21:17:46 2026
+Total elapsed time: 0.275 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 6621
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 151
+fillins = 96
+solver = Normal
+Avg thread counts: 3.1/0.0/1.8/1.4
+Matrix Compiler1: 14.29 KB object code size  4.7/2.4/[1.2]
+Matrix Compiler2: 15.29 KB object code size  2.1/2.0/[1.0]
+
